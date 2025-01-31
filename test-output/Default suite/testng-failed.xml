@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.newyork.NewYork">
+      <class name="org.hotel.AdactinPage_3">
         <methods>
-          <include name="home"/>
-          <include name="Page_1"/>
+          <include name="hotelSearch"/>
+          <include name="homePage"/>
         </methods>
-      </class> <!-- org.newyork.NewYork -->
+      </class> <!-- org.hotel.AdactinPage_3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -23,9 +23,9 @@ public class AdactinPage_3 extends BaseClass {
 		dropDown(h.getHotelName(), "Hotel Sunshine");
 		dropDown(h.getRoomType(), "Double");
 		h.getCheckIn().clear();
-		passValue(h.getCheckIn(), "24/01/2025");
+		passValue(h.getCheckIn(), "24/02/2025");
 		h.getCheckOut().clear();
-		passValue(h.getCheckOut(), "25/01/2025");
+		passValue(h.getCheckOut(), "25/02/2025");
 		dropDown("1 - One", h.getRoomCount());
 		dropDown("2 - Two", h.getAdultCount());
 		dropDown(h.getChildCount(), 1);

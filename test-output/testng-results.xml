@@ -2,20 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-25T13:06:29 IST" name="Default suite" finished-at="2025-01-25T13:06:55 IST" duration-ms="26088">
+  <suite started-at="2025-01-31T16:51:24 IST" name="Default suite" finished-at="2025-01-31T16:52:02 IST" duration-ms="38387">
     <groups>
+      <group name="Smoke">
+        <method signature="AdactinPage_3.hotelSearch()[pri:0, instance:org.hotel.AdactinPage_3@6150c3ec]" name="hotelSearch" class="org.hotel.AdactinPage_3"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-01-25T13:06:29 IST" name="Default test" finished-at="2025-01-25T13:06:55 IST" duration-ms="26088">
-      <class name="org.newyork.NewYork">
-        <test-method is-config="true" signature="home()[pri:0, instance:org.newyork.NewYork@2925bf5b]" started-at="2025-01-25T13:06:29 IST" name="home" finished-at="2025-01-25T13:06:55 IST" duration-ms="25086" status="PASS">
+    <test started-at="2025-01-31T16:51:24 IST" name="Default test" finished-at="2025-01-31T16:52:02 IST" duration-ms="38387">
+      <class name="org.hotel.AdactinPage_3">
+        <test-method is-config="true" signature="homePage()[pri:0, instance:org.hotel.AdactinPage_3@6150c3ec]" started-at="2025-01-31T16:51:24 IST" name="homePage" finished-at="2025-01-31T16:51:45 IST" duration-ms="20690" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- home -->
-        <test-method signature="Page_1()[pri:0, instance:org.newyork.NewYork@2925bf5b]" started-at="2025-01-25T13:06:55 IST" name="Page_1" finished-at="2025-01-25T13:06:55 IST" duration-ms="830" status="PASS">
+        </test-method> <!-- homePage -->
+        <test-method signature="hotelSearch()[pri:0, instance:org.hotel.AdactinPage_3@6150c3ec]" started-at="2025-01-31T16:51:45 IST" name="hotelSearch" finished-at="2025-01-31T16:52:02 IST" duration-ms="17501" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Page_1 -->
-      </class> <!-- org.newyork.NewYork -->
+        </test-method> <!-- hotelSearch -->
+      </class> <!-- org.hotel.AdactinPage_3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
