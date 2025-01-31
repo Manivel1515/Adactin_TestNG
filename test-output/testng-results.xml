@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-25T13:06:29 IST" name="Default suite" finished-at="2025-01-25T13:06:55 IST" duration-ms="26088">
+    <groups>
+    </groups>
+    <test started-at="2025-01-25T13:06:29 IST" name="Default test" finished-at="2025-01-25T13:06:55 IST" duration-ms="26088">
+      <class name="org.newyork.NewYork">
+        <test-method is-config="true" signature="home()[pri:0, instance:org.newyork.NewYork@2925bf5b]" started-at="2025-01-25T13:06:29 IST" name="home" finished-at="2025-01-25T13:06:55 IST" duration-ms="25086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- home -->
+        <test-method signature="Page_1()[pri:0, instance:org.newyork.NewYork@2925bf5b]" started-at="2025-01-25T13:06:55 IST" name="Page_1" finished-at="2025-01-25T13:06:55 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Page_1 -->
+      </class> <!-- org.newyork.NewYork -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
